@@ -12,4 +12,5 @@ p3 = le_pesos[2]
 
 media_ponderada = (n1*p1 + n2*p2 + n3*p3)/(p1 + p2 + p3)
 
-print("%.6f" % media_ponderada)
+# print("%.6f" % media_ponderada)
+print(round(media_ponderada, 6))

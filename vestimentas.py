@@ -4,7 +4,9 @@ def vestimentas(x_botas, y_chapeus):
         print(y_chapeus)
     else:
         print(x_botas)
+
 '''
+# TESTES:
 x = int(input())
 y = int(input())
 

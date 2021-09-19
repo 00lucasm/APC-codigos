@@ -16,5 +16,3 @@ n = int(input())
 while(n > 0):
     print("estou dentro de um loop while ou em uma recursao?")
     n = n - 1
-
-

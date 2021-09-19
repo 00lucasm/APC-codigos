@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-a = int(input())
+a = int(input("> Insert a value!\n> "))
 
 while(a <= 0):
     print("> Please, insert a value greater than ZERO!")

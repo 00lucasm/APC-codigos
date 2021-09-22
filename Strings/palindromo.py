@@ -22,7 +22,9 @@ def busca_string(frase, string):
             cont += 1
 
 frase = input("Digite uma frase: ")
-# palavra = input("Digite uma palavra: ")
+palavra = input("Digite uma palavra: ")
 
-print(f'É uma string palíndromo? {palindromo_string(frase)}')
-print(f'É uma frase palíndromo? {palindromo(frase)}')
+# print(f'É uma string palíndromo? {palindromo_string(frase)}')
+# print(f'É uma frase palíndromo? {palindromo(frase)}')
+
+print(f'Possui {busca_string(frase, palavra)} ocorrências da string "{palavra}"')

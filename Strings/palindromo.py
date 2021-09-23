@@ -2,6 +2,7 @@
 """
 STRINGS == cadeia de caracteres!
 """
+
 # essa função só funciona para strings
 def palindromo_string(frase):
     return frase == frase[::-1]
